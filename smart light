@@ -1,0 +1,10 @@
+class SmartLight:
+  def __init__(self, room):
+    self.room = room
+    self.is_on = False #starting state is light off
+  def turn_on(self):
+    self.is_on = True 
+  def turn_off(self):
+    self.is_on = false 
+  def status(self):
+    print(f"{self.room}: {self.is_on}")
